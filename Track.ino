@@ -4,7 +4,7 @@
 int stepsPerRevolution = 2048;
 
 // set a speed for the stepper motor
-int rpm = 10;
+int rpm = 20;
 
 // initialize stepper library on pins 8 - 11
 // pin order IN1, IN3, IN2, IN4
