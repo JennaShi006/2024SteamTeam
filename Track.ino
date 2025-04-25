@@ -35,6 +35,6 @@ void loop() {
 
   // Run motor continuously if toggled on
   if (motorRunning) {
-    myStepper.step(10);  // Small steps for smooth motion
+    myStepper.step(-10);  // Small steps for smooth motion
   }
 }
